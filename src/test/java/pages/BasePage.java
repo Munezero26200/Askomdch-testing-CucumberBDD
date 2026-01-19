@@ -7,6 +7,7 @@ import utils.ConfigLoader;
 
 import java.time.Duration;
 
+
 public class BasePage {
 
     protected WebDriver driver;

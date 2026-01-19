@@ -25,7 +25,7 @@ public class CheckoutPage extends BasePage{
     @FindBy( id  = "place_order") private WebElement placeOrderBtnfld;
     @FindBy(css = ".woocommerce-notice") private WebElement orderConfirmationMsg;
     @FindBy(id = "billing_country") private WebElement billingCountryfld;
-    @FindBy(css = "#payment_method_cod") private WebElement codLabel;
+    @FindBy(css = "label[for='payment_method_cod']") private WebElement codLabel;
     @FindBy(css = "ul.woocommerce-error li") private WebElement errorMsg;
 
     public CheckoutPage placeOrder(){

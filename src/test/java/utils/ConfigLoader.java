@@ -1,12 +1,7 @@
 package utils;
 
 import Constants.EnvType;
-import utils.PropertyUtils;
-
 import java.util.Properties;
-
-import static Constants.EnvType.PROD;
-import static Constants.EnvType.STAGE;
 
 public class ConfigLoader {
 
