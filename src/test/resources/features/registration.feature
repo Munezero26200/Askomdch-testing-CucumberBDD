@@ -14,9 +14,9 @@ Feature: User registration
 
     Examples:
       | username | email-address      | password    |
-      | user1ziph  | usert1ziph@gmail.com | pass234!    |
-      | alineziph  | aline.ziph@gmail.com | pass@@!     |
-      | testezriph | testerziph@test.com  | abc12345688 |
+      | user1zxiph  | usert1ziph@gmail.com | pass234!    |
+      | alinezixph  | aline.ziph@gmail.com | pass@@!     |
+      | testezrixph | testerziph@test.com  | abc12345688 |
 
   @negative @registration
   Scenario Outline: Registration fails with invalid details
